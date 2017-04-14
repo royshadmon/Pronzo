@@ -12,7 +12,8 @@
 		41A079311E9E93F8000AE7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A0792F1E9E93F8000AE7C5 /* Main.storyboard */; };
 		41A079331E9E93F8000AE7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A079321E9E93F8000AE7C5 /* Assets.xcassets */; };
 		41A079361E9E93F8000AE7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A079341E9E93F8000AE7C5 /* LaunchScreen.storyboard */; };
-		41A0793E1E9E97B7000AE7C5 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A0793D1E9E97B7000AE7C5 /* Login.png */; };
+		41B245581EA0A5D0003BC8F5 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B245571EA0A5D0003BC8F5 /* Profile.png */; };
+		41B2455A1EA0A5D5003BC8F5 /* LoginPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B245591EA0A5D5003BC8F5 /* LoginPage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		41A079321E9E93F8000AE7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A079351E9E93F8000AE7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A079371E9E93F8000AE7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41A0793D1E9E97B7000AE7C5 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		41B245571EA0A5D0003BC8F5 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		41B245591EA0A5D5003BC8F5 /* LoginPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginPage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,8 @@
 			children = (
 				41A0792A1E9E93F8000AE7C5 /* Pronzo */,
 				41A079291E9E93F8000AE7C5 /* Products */,
-				41A0793D1E9E97B7000AE7C5 /* Login.png */,
+				41B245571EA0A5D0003BC8F5 /* Profile.png */,
+				41B245591EA0A5D5003BC8F5 /* LoginPage.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,9 +131,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A079361E9E93F8000AE7C5 /* LaunchScreen.storyboard in Resources */,
-				41A0793E1E9E97B7000AE7C5 /* Login.png in Resources */,
+				41B2455A1EA0A5D5003BC8F5 /* LoginPage.png in Resources */,
 				41A079331E9E93F8000AE7C5 /* Assets.xcassets in Resources */,
 				41A079311E9E93F8000AE7C5 /* Main.storyboard in Resources */,
+				41B245581EA0A5D0003BC8F5 /* Profile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				41A0793C1E9E93F8000AE7C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
