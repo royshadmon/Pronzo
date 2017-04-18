@@ -13,6 +13,7 @@
 		41A079331E9E93F8000AE7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A079321E9E93F8000AE7C5 /* Assets.xcassets */; };
 		41A079361E9E93F8000AE7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A079341E9E93F8000AE7C5 /* LaunchScreen.storyboard */; };
 		41A0793E1E9E97B7000AE7C5 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A0793D1E9E97B7000AE7C5 /* Login.png */; };
+		E7A6CCD2918349A6E1EB21D4 /* Pods_Pronzo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42AE6CBFA4E8CD3F1A16FF4 /* Pods_Pronzo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		41A079351E9E93F8000AE7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A079371E9E93F8000AE7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A0793D1E9E97B7000AE7C5 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		6F555E037C1827B8329D4351 /* Pods-Pronzo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pronzo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pronzo/Pods-Pronzo.debug.xcconfig"; sourceTree = "<group>"; };
+		B42AE6CBFA4E8CD3F1A16FF4 /* Pods_Pronzo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pronzo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F53C8ACA97FCF14F2BA1A4 /* Pods-Pronzo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pronzo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pronzo/Pods-Pronzo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,18 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A6CCD2918349A6E1EB21D4 /* Pods_Pronzo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A25B07E96B53E7A2883E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F555E037C1827B8329D4351 /* Pods-Pronzo.debug.xcconfig */,
+				B6F53C8ACA97FCF14F2BA1A4 /* Pods-Pronzo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		41A0791F1E9E93F8000AE7C5 = {
 			isa = PBXGroup;
 			children = (
 				41A0792A1E9E93F8000AE7C5 /* Pronzo */,
 				41A079291E9E93F8000AE7C5 /* Products */,
 				41A0793D1E9E97B7000AE7C5 /* Login.png */,
+				02A25B07E96B53E7A2883E1A /* Pods */,
+				86B37875ABC289F3A6987A1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = Pronzo;
 			sourceTree = "<group>";
 		};
+		86B37875ABC289F3A6987A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42AE6CBFA4E8CD3F1A16FF4 /* Pods_Pronzo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41A0793A1E9E93F8000AE7C5 /* Build configuration list for PBXNativeTarget "Pronzo" */;
 			buildPhases = (
+				997A8DE8FB6CA219A3ED41C8 /* [CP] Check Pods Manifest.lock */,
 				41A079241E9E93F8000AE7C5 /* Sources */,
 				41A079251E9E93F8000AE7C5 /* Frameworks */,
 				41A079261E9E93F8000AE7C5 /* Resources */,
+				A23BE70CABDDC22DC60FF3BA /* [CP] Embed Pods Frameworks */,
+				8FF3D21C031E81E757D4FE87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FF3D21C031E81E757D4FE87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pronzo/Pods-Pronzo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997A8DE8FB6CA219A3ED41C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A23BE70CABDDC22DC60FF3BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pronzo/Pods-Pronzo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41A079241E9E93F8000AE7C5 /* Sources */ = {
@@ -263,6 +338,7 @@
 		};
 		41A0793B1E9E93F8000AE7C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F555E037C1827B8329D4351 /* Pods-Pronzo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43HU88M9RT;
@@ -276,6 +352,7 @@
 		};
 		41A0793C1E9E93F8000AE7C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F53C8ACA97FCF14F2BA1A4 /* Pods-Pronzo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43HU88M9RT;
