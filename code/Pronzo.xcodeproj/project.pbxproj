@@ -272,7 +272,7 @@
 				DEVELOPMENT_TEAM = 43HU88M9RT;
 				INFOPLIST_FILE = Pronzo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexanderAu.Pronzo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmps115.Pronzo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,7 +285,7 @@
 				DEVELOPMENT_TEAM = 43HU88M9RT;
 				INFOPLIST_FILE = Pronzo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexanderAu.Pronzo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmps115.Pronzo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
