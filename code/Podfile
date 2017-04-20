@@ -7,4 +7,7 @@ target 'Pronzo' do
 
   # Pods for Pronzo
 	pod ‘Firebase/Core’
+	pod 'Firebase/Auth'
+	pod 'GoogleSignIn'
+
 end
