@@ -1,0 +1,36 @@
+Release 1 Plan
+Pronzo
+Pronzo Developers
+Capellini
+Release: 04 - 10 - 2017
+v1.0.0
+Revision: 04 - 19 - 2017
+
+High Level Goals
+Create a usable application
+Create user profiles with user information, food preferences, and interests
+Linkedin or .edu email logins only
+Create a post board for meet ups with the intention of adding a map linked to the posts
+Deploy a restaurant database for users to easily choose from restaurants near them
+Allow users to filter age, food preferences, and interests
+Allow companies to post ads on the application
+
+User Stories for Release
+Sprint 1
+As a user, I want an application that can connect me with professionals so that I can build connections within my industry  (21)
+As a user, I want a login in with Linkedin or .edu email logins only to ensure a safe login system (2)
+As a user, I want to be able to build a profile so professionals can see if they are interested in connecting with me. (3)
+As a user, I want to see when and where other like-minded professionals are planning to go to lunch so that I can schedule meetings (8)
+Sprint 2
+As a user, I want to view a map to see the locations of other user’s meeting posts so I can know how close others are to me. (5)
+As a user, I need to be able to quickly and easily communicate with someone I am meeting with so that we can better coordinate (specific) times and locations.  (13)
+As a developer, I want to use the Yelp API with the search bar to make their restaurant database available (3)
+As a user I want an auto-completion/auto-suggestion feature so I do not have to type a specific restaurant but a style of food and receive results (5)
+Sprint 3
+As a user, I want to report dangerous activity so that I do not have spam activity on my interface (5)
+As a user I want to be able to filter various categories to create an event feed more catered to my preferences.(5)
+
+
+Product Backlog
+Companies submitting ads for meal discounts 
+As a marketer, I want people using the app to go eat at my restaurant. (13)
