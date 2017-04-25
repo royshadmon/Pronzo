@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		413BFD001EA83F8B00359E2B /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 413BFCFF1EA83F8B00359E2B /* Profile.png */; };
+<<<<<<< HEAD
 		413BFD021EAED93100359E2B /* Events.png in Resources */ = {isa = PBXBuildFile; fileRef = 413BFD011EAED93100359E2B /* Events.png */; };
+=======
+>>>>>>> 8a13513a87ef94f370f72d6a41ca7b7f95865431
 		41A0792C1E9E93F8000AE7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0792B1E9E93F8000AE7C5 /* AppDelegate.swift */; };
 		41A0792E1E9E93F8000AE7C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0792D1E9E93F8000AE7C5 /* ViewController.swift */; };
 		41A079311E9E93F8000AE7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A0792F1E9E93F8000AE7C5 /* Main.storyboard */; };
@@ -19,7 +22,10 @@
 
 /* Begin PBXFileReference section */
 		413BFCFF1EA83F8B00359E2B /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		413BFD011EAED93100359E2B /* Events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Events.png; sourceTree = "<group>"; };
+=======
+>>>>>>> 8a13513a87ef94f370f72d6a41ca7b7f95865431
 		41A079281E9E93F8000AE7C5 /* Pronzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A0792B1E9E93F8000AE7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A0792D1E9E93F8000AE7C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +54,10 @@
 				41A079291E9E93F8000AE7C5 /* Products */,
 				41B245591EA0A5D5003BC8F5 /* LoginPage.png */,
 				413BFCFF1EA83F8B00359E2B /* Profile.png */,
+<<<<<<< HEAD
 				413BFD011EAED93100359E2B /* Events.png */,
+=======
+>>>>>>> 8a13513a87ef94f370f72d6a41ca7b7f95865431
 			);
 			sourceTree = "<group>";
 		};
