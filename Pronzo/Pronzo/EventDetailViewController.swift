@@ -28,17 +28,6 @@ class EventDetailViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         navigationItem.title = "Title"
-//        let back = UIButton(type: .custom)
-//        back.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-//        back.addTarget(self, action: performSegue(withIdentifier: "back", sender: self), for: .touchUpInside)
-//        let item1 = UIBarButtonItem(customView: back)
-//        self.navigationItem.setLeftBarButton(item1, animated: true)
-        let button1 = UIBarButtonItem(title: "<back", style: UIBarButtonItemStyle.done, target: self, action: #selector(self.buttonTapped))
-        self.navigationItem.leftBarButtonItem  = button1
-
-        
-        
-        //self.navigationItem.leftBarButtonItem = backButton
     }
     
     
