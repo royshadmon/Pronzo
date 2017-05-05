@@ -76,8 +76,7 @@ class TableViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let object = arrayOfCellData[indexPath.row]
                 NSLog("name: %@", object.name)
-                let controller = (segue.destination as! UINavigationController).topViewController as!
-                                                                                EventDetailViewController
+                let controller = segue.destination  as! EventDetailViewController
                 controller.detailItem = object
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
