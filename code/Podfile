@@ -6,5 +6,6 @@ target 'Pronzo' do
   use_frameworks!
 
   # Pods for Pronzo
-	pod ‘Firebase/Core’
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
 end
