@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>878598243220-eh71klpaldedkn0lv2f333rc8dpv6c3c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.878598243220-eh71klpaldedkn0lv2f333rc8dpv6c3c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAkkhs1nDVdQDJNqHAAnd-qOaOdVM34Vew</string>
+	<key>GCM_SENDER_ID</key>
+	<string>878598243220</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cmps115.Pronzo</string>
+	<key>PROJECT_ID</key>
+	<string>pronzo-fb170</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pronzo-fb170.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:878598243220:ios:9dd76b620841d39e</string>
+	<key>DATABASE_URL</key>
+	<string>https://pronzo-fb170.firebaseio.com</string>
+</dict>
+</plist>
